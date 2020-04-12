@@ -1,0 +1,144 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 400;}
+.bg{
+    background: #e5e5e5;
+}
+.header-area{
+    /* background-color: #E5E5E5; */
+    background: #e5e5e5;
+    padding-top: 40px;}
+    .header-area nav{
+        padding-top: 15px; }
+        .header-area .user-area{
+            padding-top: 15px; 
+            text-align: right;}
+        .header-area .user-area a{
+            text-decoration:none;
+            font-weight: 500;
+            padding: 10px; }
+
+.welcome-area{
+    background-color: #E5E5E5;
+    height: 567px;
+    padding-top: 200px;}
+    .welcome-area h1{
+    font-size: 50px;
+    font-weight: 400;}
+    .welcome-area p{
+    font-size: 20px;}
+
+.bg-gray{
+    background: rgba(196, 196, 196, 0.44);
+}
+.flash-sale{
+    background-color: #E5E5E5;}
+    .flash-sale .container{
+    background-color: lightgray;
+    height: 512px;}
+    .flash-sale h1{
+        padding: 32px 0px 37px 0px;}
+    
+.sale{
+    width: 312px;
+    height: 256px;}
+    .sale .sale-image{    
+        height: 128px;
+        width: 100%;
+        background-color: black;
+        text-align: center;
+        padding: 20px;}
+    .sale .sale-image img{
+        width:101px;}
+    .sale .sale-info{
+        padding-top: 12px;
+        padding-left: 24px;}
+    .sale .sale-info .price{
+        padding-top: 12px;
+        font-weight: bold;
+        padding-bottom: 18px;}
+    .sale .sale-info .price s{
+        padding-top: 12px;
+        font-weight: normal;}
+    .sale .author{
+        font-size: 12px;
+        padding-bottom: 16px;}
+    .sale .tbl-kelas{
+        margin-top: 24px;
+        margin: 24px auto;
+        padding-bottom: 68px;}
+    .sale .tbl-kelas a{
+        text-decoration: none;
+        color: #333333;
+        border: solid #000 1px;
+        display: inline-block;
+        width: 93px;
+        height: 36px;
+        font-size: 12px;
+        padding: 10px 0px 11px;}
+
+.lingkaran{
+    padding: 8px 0px;
+}
+    
+.kelas-wa container-fluid{
+    height: 667pt;}
+    .kelas-wa h1{
+        padding: 216px 109px 225px 274px;
+
+    }
+/* .bg-white{
+
+} */
