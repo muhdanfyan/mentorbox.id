@@ -44,90 +44,88 @@ table {
 	border-spacing: 0;}
 
 h1{
-    font-size: 50px;
-    font-weight: 400;}
+    font-size: 50px;}
 
+.bg-blue{
+    background-color: #004C94;}
 .bg{
     background: #e5e5e5;}
+.header{
+    height: 101px;
+}
+.header .nav-kiri{
+    padding: 18px 0px;}
+    .header .nav-kiri nav{
+        padding-top : 22px;}
+    .header .nav-kiri nav a{
+        color : white;
+        opacity: 0.64;}
+    .header .nav-kiri nav a:hover{
+        opacity: 1;}
+.header .user-menu{
+    text-align: right;
+    padding-right: 148px;
+    padding-top: 38px;}
+    .header .user-menu a{
+        display: inline-block;
+        font-size: 16px;
+        font-weight: normal;
+        text-decoration: none;
+        padding: 8px 20px;
+        text-align: center;
+        color:white;}
+        .header .user-menu a img{
+            width:50px;
+            position: absolute;
+            border-radius : 100%;
+            margin-top : -20px;}
+        .header .user-menu a sup span .badge{
+            width: 15px;}
+        
 
-.header-area{
-    /* background-color: #E5E5E5; */
-    /* background: #e5e5e5; */
-    padding-top: 40px;}
-    .header-area nav{
-        padding-top: 15px; }
-        .header-area .user-area{
-            padding-top: 15px; 
-            text-align: right;}
-        .header-area .user-area a{
-            text-decoration:none;
-            font-weight: 500;
-            padding: 10px; }
-.kotak-bg{
+.tbl-biru{
+        width: 93px;
+        height: 36px;
+        color:white;
+        background-color: #004C94;}
+        .tbl-biru:hover{
+            color:#004C94;
+            background-color: white;
+            border: 1px solid #004C94;}
+/* .kotak-bg{
     position: absolute;
     width: 675px;
     height: 674.5px;
     left: 0px;
     top: 0px;
 
-    background: rgba(196, 196, 196, 0.44);}
+    background: rgba(196, 196, 196, 0.44);} */
 .welcome-area{
-    /* background-color: #E5E5E5; */
+    background-image: url('../img/image-welcome.svg');
     height: 567px;
     padding-top: 200px;}
     .welcome-area h1{
-    font-size: 50px;
-    font-weight: 400;}
+    font-size: 56px;
+    font-weight: bold;
+    color: #fff;}
     .welcome-area p{
-    font-size: 20px;}
+        font-size: 20px;
+        font-weight: 300;
+        color: #fff;
+        opacity: 0.64;}
 
 .bg-gray{
     background: rgba(196, 196, 196, 0.44);}
+
 .flash-sale{
-    background-color: #E5E5E5;}
-    .flash-sale .container{
-    background-color: lightgray;
-    height: 512px;}
+    margin-top: 53px;}
     .flash-sale h1{
-        padding: 32px 0px 37px 0px;}
-    
-.sale{
-    width: 312px;
-    height: 256px;}
-    .sale .sale-image{    
-        height: 128px;
-        width: 100%;
-        background-color: black;
-        text-align: center;
-        padding: 20px;}
-    .sale .sale-image img{
-        width:89px;}
-    .sale .sale-info{
-        padding-top: 12px;
-        padding-left: 24px;}
-    .sale .sale-info .price{
-        padding-top: 12px;
+        color: #004C94;
+        font-size:48px;
+        line-height: 59px;}
+    .flash-sale-title{
         font-weight: bold;
-        padding-bottom: 18px;}
-    .sale .sale-info .price s{
-        padding-top: 12px;
-        font-weight: normal;}
-    .sale .author{
-        font-size: 12px;
-        padding-bottom: 16px;}
-    .sale .tbl-kelas{
-        margin-top: 24px;
-        margin: 24px auto;
-        padding-bottom: 68px;}
-    .sale .tbl-kelas a{
-        text-decoration: none;
-        color: #333333;
-        border: solid #000 1px;
-        display: inline-block;
-        width: 93px;
-        height: 36px;
-        font-size: 12px;
-        padding: 10px 0px 11px;}
+    }
 
 .price{
     padding-top: 12px;
@@ -140,7 +138,6 @@ h1{
 .lingkaran{
     padding: 8px 0px;}
     
-.intro-wa .container-fluid{}
     .intro-wa .header-wa{
         padding: 216px 0px 225px 109px;}
     .intro-wa .header-wa h1{

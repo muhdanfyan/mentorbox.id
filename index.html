@@ -6,42 +6,50 @@
     <title>Mentorbox.id - ruang meraih cita</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="header-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-2">
-                        <img src="img/logo.svg" alt="">
-                    </div>
-                    <div class="col-lg-4">
-                        <nav class="nav justify-content-end">
-                          <a class="nav-link active" href="#">Tentang</a>
-                          <a class="nav-link" href="#">Kelas</a>
-                          <a class="nav-link" href="#">Mentoring</a>
-                        </nav>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="user-area justify-content-end">
-                            <a href="#">Login</a>
-                            <a href="#" class="btn btn-dark" style="border-radius: 0;">daftar</a>
+    <header class="header bg-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="nav-kiri">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="img-logo">
+                                    <img src="img/logo-white.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <nav class="nav justify-content-end">
+                                    <a class="nav-link" href="#">Tentang</a>
+                                    <a class="nav-link" href="#">Kelas</a>
+                                    <a class="nav-link" href="#">Mentoring</a>
+                                </nav>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>    
+                <div class="col-lg-6">
+                    <div class="user-menu">
+                        <a href=""><i class="fa fa-bell" aria-hidden="true"></i><sup><span class="badge badge-danger"> </span></sup></a>
+                        <a href="#">Kelas Saya</a>
+                        <a href="#">
+                            <img src="img/foto.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
-    <div class="kotak-bg">
-        
-    </div>
+
     <div class="welcome-area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <h1>Belajar Online Skill Profesi & Bisnis</h1>
-                    <p class="text-secondary">Belajar Online mudah, dari mana saja</p>
+                    <p>Belajar Online mudah, dari mana saja</p>
                 </div>
                 <div class="col-lg-6">
                     <!-- tempat image  -->
@@ -52,95 +60,54 @@
 
     <div class="flash-sale">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <h1>Flash Sale</h1>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="flash-sale-title">
+                        <h1>Flash Sale</h1>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="sale">
-                            <div class="sale-image">
-                                <img src="img/image.svg" alt="">
+                <div class="col-lg-6">
+                    <div class="flash-sale-time text-right">
+                        <h1>
+                            00 : 00 : 00
+                        </h1>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="jadwal-kelas">
+                        <div class="jadwal-kelas-title">
+                            Belajar Content Writing
+                        </div>
+                        <div class="author">
+                            <div class="author-nama">
+                                By Handri Darmawan
                             </div>
-                            <div class="sale-info bg-gray">
-                                <h4>
-                                    Belajar Content Writing
-                                </h4>
-                                <div class="lingkaran">
-                                    <img src="img/circle.svg" alt="">
-                                    <img src="img/circle.svg" alt="">
-                                    <img src="img/circle.svg" alt="">
-                                    <img src="img/circle.svg" alt="">
-                                    <img src="img/circle.svg" alt="">
+                            <div class="rating">
+                                <div class="bintang">
+                                    <ol>
+                                        <li><img src="img/circle.svg" alt=""></li>
+                                        <li><img src="img/circle.svg" alt=""></li>
+                                        <li><img src="img/circle.svg" alt=""></li>
+                                        <li><img src="img/circle.svg" alt=""></li>
+                                        <li><img src="img/circle.svg" alt=""></li>
+                                    </ol>
                                 </div>
-                                <div class="price">
-                                    <s>Rp. 100.000</s> Rp. 99.000
+                                <div class="angka">
+                                    4.7 (500 Rating)
                                 </div>
-                                <div class="author">
-                                    By Andri Darmawan
-                                </div>
-                            </div>
-                            <div class="tbl-kelas text-center">
-                                <a href="#">Pilih Kelas</a>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <div class="sale">
-                            <div class="sale-image">
-                                <img src="img/image.svg" alt="">
-                            </div>
-                            <div class="sale-info bg-gray">
-                                <h4>
-                                    Belajar Content Writing
-                                </h4>
-                                <div class="lingkaran">
-                                    <img src="img/circle.svg" alt="">
-                                    <img src="img/circle.svg" alt="">
-                                    <img src="img/circle.svg" alt="">
-                                    <img src="img/circle.svg" alt="">
-                                    <img src="img/circle.svg" alt="">
-                                </div>
-                                <div class="price">
-                                    <s>Rp. 100.000</s> Rp. 99.000
-                                </div>
-                                <div class="author">
-                                    By Andri Darmawan
-                                </div>
-                            </div>
-                            <div class="tbl-kelas text-center">
-                                <a href="#">Pilih Kelas</a>
+                        <div class="price">
+                            <div class="row">
+                                <div class="col-lg-6"><s>Rp100.000</s></div>
+                                <div class="col-lg-6">Rp99.000</div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="col-lg-4">
-                        <div class="sale">
-                            <div class="sale-image">
-                                <img src="img/image.svg" alt="">
-                            </div>
-                            <div class="sale-info bg-gray">
-                                <h4>
-                                    Belajar Content Writing
-                                </h4>
-                                <div class="lingkaran">
-                                    <img src="img/circle.svg" alt="">
-                                    <img src="img/circle.svg" alt="">
-                                    <img src="img/circle.svg" alt="">
-                                    <img src="img/circle.svg" alt="">
-                                    <img src="img/circle.svg" alt="">
-                                </div>
-                                <div class="price">
-                                    <s>Rp. 100.000</s> Rp. 99.000
-                                </div>
-                                <div class="author">
-                                    By Andri Darmawan
-                                </div>
-                            </div>
-                            <div class="tbl-kelas text-center">
-                                <a href="#">Pilih Kelas</a>
-                            </div>
+                        <div class="pilih-jadwal">
+                            <a href="#">Pilih Jadwal</a>
                         </div>
                     </div>
                 </div>
@@ -483,5 +450,6 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </body>
 </html>
