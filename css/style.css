@@ -64,16 +64,15 @@ h1{
         opacity: 1;}
 .header .user-menu{
     text-align: right;
-    padding-right: 148px;
-    padding-top: 38px;}
+    padding-top: 38px;
+    color:white;}
     .header .user-menu a{
         display: inline-block;
         font-size: 16px;
         font-weight: normal;
         text-decoration: none;
         padding: 8px 20px;
-        text-align: center;
-        color:white;}
+        text-align: center;}
         .header .user-menu a img{
             width:50px;
             position: absolute;
@@ -81,15 +80,14 @@ h1{
             margin-top : -20px;}
         
 
+.bg-gray{
+    background: rgba(196, 196, 196, 0.44);}
+            
 .tbl-biru{
         width: 93px;
         height: 36px;
-        color:white;
-        background-color: #004C94;}
-        .tbl-biru:hover{
-            color:#004C94;
-            background-color: white;
-            border: 1px solid #004C94;}
+        color:#004C94;
+        background-color: white;}
 /* .kotak-bg{
     position: absolute;
     width: 675px;
@@ -112,8 +110,22 @@ h1{
         color: #fff;
         opacity: 0.64;}
 
-.bg-gray{
-    background: rgba(196, 196, 196, 0.44);}
+.menu-kelas{
+    margin:23px 0px;}
+    .menu-kelas .container{
+        background: linear-gradient(339.56deg, #004C94 4.18%, #0094FF 100.63%, #878045 100.63%);
+        border-radius:16px; 
+        padding :18px 12px;
+        text-align: center;}
+    .menu-kelas .container ul li{
+        display: inline-block;
+        background-color: white;
+        padding: 8px 0px;
+        border-radius: 16px;
+        margin:0px 8px;
+        width:202px;
+        font-size: 16px;}
+
 
 .flash-sale{
     margin-top: 53px;}
