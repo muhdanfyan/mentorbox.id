@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+    vertical-align: baseline;
+    text-decoration: none;}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -193,7 +194,8 @@ h1{
         text-align:center;
         background: #003461;
         color:white;
-        padding: 8px ;}
+        padding: 8px ;
+        text-decoration: none;}
 
 .lingkaran{
     padding: 8px 0px;}
@@ -208,10 +210,12 @@ h1{
 .kelas{
     padding-bottom: 25px;}
 .kelas-wa{
-    padding: 0px 0px;;}
+    padding: 36px 0px;}
     .kelas-wa h1{
+        font-size : 48px;
         margin-left: 100px;
-        margin-bottom: 36px;}
+        margin-bottom: 36px;
+        text-align: center;}
     .kelas-wa .thumb{
         width: 203px;
         height: 128px;
