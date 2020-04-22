@@ -213,31 +213,16 @@ h1{
     padding: 36px 0px;}
     .kelas-wa h1{
         font-size : 48px;
-        margin-left: 100px;
         margin-bottom: 36px;
-        text-align: center;}
+        color: #003461;}
+    .kelas-wa-list{
+        padding: 0px 100px;}
     .kelas-wa .thumb{
-        width: 203px;
-        height: 128px;
-        padding-top:25.02px;
         text-align: center;
-        background-color: black;
         margin-bottom: 14px;}
     .kelas-wa .thumb img{
-        width : 89px;
-        height: 77px;  }
-    .kelas-wa .kelas-info{
-        padding-left: 14px;}
-    .kelas-wa .kelas-info h1{
-        font-size: 16px;
-        font-weight: 300;}
-    .kelas-wa .kelas-info .author{
-        font-size: 12px;
-        margin : 8px 0px;}
-    .kelas-wa .kelas-info .pilih-kelas a{
-        font-size: 12px;
-        color: black;
-        font-weight: bold;}
+        width:100%;
+    }
 .p-8{
     padding: 0px 8px;}
 
