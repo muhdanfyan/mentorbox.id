@@ -21,8 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-    vertical-align: baseline;
-    text-decoration: none;}
+    vertical-align: baseline;}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -42,7 +41,10 @@ q:before, q:after {
 	content: none;}
 table {
 	border-collapse: collapse;
-	border-spacing: 0;}
+    border-spacing: 0;}
+a{
+    text-decoration: none;
+}
 
 h1{
     font-size: 50px;}
@@ -208,21 +210,61 @@ h1{
         padding-left: 2px;}
 
 .kelas{
-    padding-bottom: 25px;}
+    padding-bottom: 63px;}
 .kelas-wa{
     padding: 36px 0px;}
     .kelas-wa h1{
         font-size : 48px;
         margin-bottom: 36px;
-        color: #003461;}
+        color: #003461;
+    }
     .kelas-wa-list{
         padding: 0px 100px;}
     .kelas-wa .thumb{
         text-align: center;
         margin-bottom: 14px;}
     .kelas-wa .thumb img{
-        width:100%;
+        width:100%;}
+    .kelas-wa .kelas-info h4{
+        font-size: 16px;
+        line-height: 20px;}
+    .kelas-wa .lingkaran img{
+        width:18.5px;}
+    .kelas-wa .kelas-info .price{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 12.34px;}
+    .kelas-wa .kelas-info .price s{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+        text-decoration-line: line-through;
+        color: #333333;
+        opacity: 0.64;}
+    .kelas-wa .kelas-info .author{
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+        opacity: 0.6;}
+    
+    .kelas-wa .kelas-info .pilih-kelas{
+        padding-top:14.55px;
     }
+    .kelas-wa .kelas-info .pilih-kelas a{
+        background-color: #003461;
+        padding: 9px 72px;}
+    
+    .kelas-wa .link-lainnya a{
+        color:white;
+        background-color: #003461;
+        display: block;
+        font-size: 16px;
+        line-height: 20px;
+        text-decoration:none;
+        padding: 25px;}
 .p-8{
     padding: 0px 8px;}
 
